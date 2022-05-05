@@ -26,7 +26,6 @@ const tableCellS = {
 
 const Student = () => {
   const student = useSelector((state)=> state.studentReducer.stdState)
-  console.log(student);
   const dispatch = useDispatch()
   const navigate = useNavigate();
 
